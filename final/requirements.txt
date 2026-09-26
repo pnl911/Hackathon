@@ -1,0 +1,10 @@
+# Python 3.10 or newer recommended
+prophet>=1.1
+pandas>=2.0
+numpy>=1.24
+openpyxl>=3.1        # reads the .xlsx input files
+matplotlib>=3.7      # example chart from the forecast script
+requests>=2.31       # Claude API and FRED API calls
+streamlit>=1.40      # dashboard
+altair>=5.0          # dashboard charts
+reportlab>=4.0       # PDF export of the action plan
